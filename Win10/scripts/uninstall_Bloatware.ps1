@@ -1,0 +1,76 @@
+$packages = @(
+"DellInc.MyDell"
+"DellInc.DellSupportAssistforPCs*"
+"DellInc.DellCustomerConnect*"
+"DellInc.DellDigitalDelivery*"
+"DellInc.DellUpdate*"
+"*LinkedInforWindows*"
+"*DropboxOEM*"
+"*3DBuilder*"
+"*Microsoft3DViewer*"
+"*Advertising.Xaml*"
+"*Appconnector*"
+"*BingFinance*"
+"*BingFoodAndDrink*"
+"*BingHealthAndFitness*"
+"*BingNews*"
+"*BingSports*"
+"*BingTravel*"
+"*BingWeather*"
+"*CommsPhone*"
+"*ConnectivityStore*"
+"*DesktopAppInstaller*"
+"*Getstarted*"
+"*Messaging*"
+"*Microsoft3DViewer*"
+"*MicrosoftOfficeHub*"
+"*MicrosoftSolitaireCollection*"
+"*MixedReality.Portal*"
+"*Netflix*"
+"*NetworkSpeedTest*"
+"*Office.Sway*"
+"*OfficeLens*"
+"*OneConnect*"
+"*OneDrive*"
+"*People*"
+"*Print3D*"
+"*RemoteDesktop*"
+"*SkypeApp*"
+"*Wallet*"
+"*Windows.CloudExperienceHost*"
+"*Windows.NarratorQuickStart*"
+"*Windows.PeopleExperienceHost*"
+"*Windows.Photos*"
+"*WindowsAlarms*"
+"*WindowsCamera*"
+"*windowscommunicationsapps*"
+"*WindowsFeedbackHub*"
+"*WindowsMaps*"
+"*WindowsPhone*"
+"*WindowsReadingList*"
+"*WindowsSoundRecorder*"
+"*Xbox.TCUI*"
+"*XboxApp*"
+"*XboxGameCallableUI*"
+"*XboxGameOverlay*"
+"*XboxGamingOverlay*"
+"*XboxIdentityProvider*"
+"*XboxLive*"
+"*XboxSpeechToTextOverlay*"
+"*YourPhone*"
+"*ZuneMusic*"
+"*ZuneVideo*"
+"Windows.CBSPreview"
+)
+
+ForEach ($package in $packages) {
+Get-AppxPackage -Name $package -AllUsers | Remove-AppxPackage
+
+Get-AppXProvisionedPackage -Online |
+where DisplayName -EQ $package |
+Remove-AppxProvisionedPackage -Online
+
+Get-appxprovisionedpackage -online |
+where-object {$_.packagename -like $package} |
+remove-appxprovisionedpackage -online
+} 

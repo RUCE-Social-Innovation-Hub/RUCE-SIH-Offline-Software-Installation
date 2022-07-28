@@ -1,0 +1,104 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_USERS\DEFAULT_USER\Control Panel\International]
+"Locale"="00001C09"
+"LocaleName"="en-ZA"
+"s1159"="AM"
+"s2359"="PM"
+"sCountry"="South Africa"
+"sCurrency"="R"
+"sDate"="/"
+"sDecimal"="."
+"sGrouping"="3;0"
+"sLanguage"="ENS"
+"sList"=","
+"sLongDate"="dd MMMM yyyy"
+"sMonDecimalSep"="."
+"sMonGrouping"="3;0"
+"sMonThousandSep"=" "
+"sNativeDigits"="0123456789"
+"sNegativeSign"="-"
+"sPositiveSign"=""
+"sShortDate"="yyyy/MM/dd"
+"sThousand"=" "
+"sTime"=":"
+"sTimeFormat"="HH:mm:ss"
+"sShortTime"="HH:mm"
+"sYearMonth"="MMMM/yyyy"
+"iCalendarType"="1"
+"iCountry"="27"
+"iCurrDigits"="2"
+"iCurrency"="0"
+"iDate"="2"
+"iDigits"="2"
+"NumShape"="1"
+"iFirstDayOfWeek"="6"
+"iFirstWeekOfYear"="0"
+"iLZero"="1"
+"iMeasure"="0"
+"iNegCurr"="1"
+"iNegNumber"="1"
+"iPaperSize"="9"
+"iTime"="0"
+"iTimePrefix"="0"
+"iTLZero"="0"
+
+[HKEY_USERS\DEFAULT_USER\Control Panel\International\Geo]
+"Nation"="209"
+"Name"="ZA"
+
+[HKEY_USERS\DEFAULT_USER\Control Panel\International\User Profile]
+"Languages"=hex(7):65,00,6e,00,2d,00,55,00,53,00,00,00,65,00,6e,00,2d,00,5a,00,\
+  41,00,00,00
+"ShowAutoCorrection"=dword:00000001
+"ShowTextPrediction"=dword:00000001
+"ShowCasing"=dword:00000001
+"ShowShiftLock"=dword:00000001
+
+[HKEY_USERS\DEFAULT_USER\Control Panel\International\User Profile\en-US]
+"CachedLanguageName"="@Winlangdb.dll,-1121"
+"0409:00000409"=dword:00000001
+
+[HKEY_USERS\DEFAULT_USER\Control Panel\International\User Profile\en-ZA]
+"CachedLanguageName"="@Winlangdb.dll,-1122"
+"1C09:00000409"=dword:00000001
+
+[HKEY_USERS\DEFAULT_USER\Control Panel\International\User Profile System Backup]
+"Languages"=hex(7):65,00,6e,00,2d,00,55,00,53,00,00,00,65,00,6e,00,2d,00,5a,00,\
+  41,00,00,00
+"ShowAutoCorrection"=dword:00000001
+"ShowTextPrediction"=dword:00000001
+"ShowCasing"=dword:00000001
+"ShowShiftLock"=dword:00000001
+
+[HKEY_USERS\DEFAULT_USER\Control Panel\International\User Profile System Backup\en-US]
+"CachedLanguageName"="@Winlangdb.dll,-1121"
+"0409:00000409"=dword:00000001
+
+[HKEY_USERS\DEFAULT_USER\Control Panel\International\User Profile System Backup\en-ZA]
+"CachedLanguageName"="@Winlangdb.dll,-1121"
+"1C09:00000409"=dword:00000001
+
+[HKEY_USERS\DEFAULT_USER\Keyboard Layout]
+
+[HKEY_USERS\DEFAULT_USER\Keyboard Layout\Preload]
+"1"="00000409"
+"2"="00001c09"
+
+[HKEY_USERS\DEFAULT_USER\Keyboard Layout\Substitutes]
+"00001c09"="00000409"
+
+[HKEY_USERS\DEFAULT_USER\Keyboard Layout\Toggle]
+
+[HKEY_USERS\DEFAULT_USER\Control Panel\Desktop\MuiCached]
+"MachinePreferredUILanguages"=hex(7):65,00,6e,00,2d,00,55,00,53,00,00,00
+
+[HKEY_USERS\DEFAULT_USER\Control Panel\Desktop]
+"DragFullWindows"="1"
+"FontSmoothing"="2"
+"FontSmoothingOrientation"=dword:00000001
+"FontSmoothingType"=dword:00000002
+"UserPreferencesMask"=hex:9e,3e,03,80,12,00,00,00
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced]
+"LaunchTo"=dword:00000001
