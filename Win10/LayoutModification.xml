@@ -1,0 +1,35 @@
+<LayoutModificationTemplate xmlns="http://schemas.microsoft.com/Start/2014/LayoutModification"
+    xmlns:defaultlayout="http://schemas.microsoft.com/Start/2014/FullDefaultLayout"
+    xmlns:start="http://schemas.microsoft.com/Start/2014/StartLayout"
+    xmlns:taskbar="http://schemas.microsoft.com/Start/2014/TaskbarLayout"
+    Version="1">
+  <DefaultLayoutOverride>
+    <StartLayoutCollection>
+		<defaultlayout:StartLayout GroupCellWidth="6" xmlns:defaultlayout="http://schemas.microsoft.com/Start/2014/FullDefaultLayout">
+			<start:Group Name="Support Apps" xmlns:start="http://schemas.microsoft.com/Start/2014/StartLayout">
+				<start:DesktopApplicationTile Size="2x2" Column="0" Row="0" DesktopApplicationID="Microsoft.Windows.Computer" />
+				<start:DesktopApplicationTile Size="2x2" Column="2" Row="0" DesktopApplicationID="{1AC14E77-02E7-4E5D-B744-2EB1AE5198B7}\cmd.exe" />
+				<start:DesktopApplicationTile Size="2x2" Column="0" Row="2" DesktopApplicationID="Microsoft.Windows.RemoteDesktop" />
+				<start:DesktopApplicationTile Size="2x2" Column="2" Row="2" DesktopApplicationID="{1AC14E77-02E7-4E5D-B744-2EB1AE5198B7}\msra.exe" />
+				<start:DesktopApplicationTile Size="2x2" Column="0" Row="4" DesktopApplicationID="Chrome" />
+				<start:DesktopApplicationTile Size="2x2" Column="2" Row="4" DesktopApplicationID="308046B0AF4A39CB" />
+				<start:DesktopApplicationTile Size="2x2" Column="0" Row="6" DesktopApplicationID="{7C5A40EF-A0FB-4BFC-874A-C0F2E0B9FA8E}\Adobe\Acrobat 2017\Acrobat\Acrobat.exe" />
+			</start:Group>
+			<start:Group Name="Office" xmlns:start="http://schemas.microsoft.com/Start/2014/StartLayout">
+				<start:DesktopApplicationTile Size="2x2" Column="0" Row="0" DesktopApplicationID="Microsoft.Office.WINWORD.EXE.15" />
+				<start:DesktopApplicationTile Size="2x2" Column="2" Row="0" DesktopApplicationID="Microsoft.Office.EXCEL.EXE.15" />
+				<start:DesktopApplicationTile Size="2x2" Column="0" Row="2" DesktopApplicationID="Microsoft.Office.OUTLOOK.EXE.15" />
+				<start:DesktopApplicationTile Size="2x2" Column="2" Row="2" DesktopApplicationID="Microsoft.Office.MSPUB.EXE.15" />
+				<start:DesktopApplicationTile Size="2x2" Column="0" Row="4" DesktopApplicationID="Microsoft.Office.POWERPNT.EXE.15" />
+			</start:Group>
+      </defaultlayout:StartLayout>
+    </StartLayoutCollection>
+  </DefaultLayoutOverride>
+  <CustomTaskbarLayoutCollection>
+      <defaultlayout:TaskbarLayout>
+        <taskbar:TaskbarPinList>
+			<taskbar:DesktopApp DesktopApplicationLinkPath="%APPDATA%\Microsoft\Windows\Start Menu\Programs\System Tools\File Explorer.lnk" />
+        </taskbar:TaskbarPinList>
+      </defaultlayout:TaskbarLayout>
+   </CustomTaskbarLayoutCollection>
+</LayoutModificationTemplate>
