@@ -61,6 +61,14 @@ $packages = @(
 "*ZuneMusic*"
 "*ZuneVideo*"
 "Windows.CBSPreview"
+"Evernote.Evernote"
+"GOTrust*"
+"Microsoft.MicrosoftEdge"
+"FACEBOOK*"
+"*SimpleMahjong*"
+"*Deluxe*"
+"AcerIncorporated.AcerCareCenter*"
+"*Care*"
 )
 
 ForEach ($package in $packages) {
