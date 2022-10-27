@@ -1,16 +1,16 @@
 @echo off                                                       
 color 0A                                                                                                          
 echo cls                                                                                                         
-echo This script creates user account SIH-LAPTOP-X                      
-set /p pause="Press enter to continue... "                                                                       
-set /p num="Enter computer number..."                                                                             
-echo %num%                                                                                                        
+set /P make="Please type in the laptop make in UPPERCASE e.g. DELL or ACER...  "
+set /p num="Enter computer number..."       
+set year=%date:~0,4%                                                                       
+@REM echo %num%                                                                                                        
 echo.                                                                                                            
-echo creating "SIH LAPTOP %num%" account....                                                                     
-set _host="SIH LAPTOP %num%"                                                                                     
-net user %_host% sih2022 /add                                                                                     
+echo creating "SIH %make% %num%" account....                                                                     
+set _host="SIH %make% %num%"                                                                                     
+net user %_host% sih%year% /add                                                                                     
 echo Switching off UAC settings...                                                                               
 regedit /s %cd%\Win10\UAC_off.reg                              
-echo "Finished creating User account SIH-LAPTOP-"%num%                                                                             
+echo "Finished creating User account "SIH %make% %num%"                                                                             
 set /p pause="Press enter to continue..."                                        
 
