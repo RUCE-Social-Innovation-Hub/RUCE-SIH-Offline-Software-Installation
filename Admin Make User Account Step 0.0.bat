@@ -3,7 +3,7 @@ color 0A
 echo cls                                                                                                         
 set /P make="Please type in the laptop make in UPPERCASE e.g. DELL or ACER...  "
 set /p num="Enter computer number..."       
-set year=%date:~0,4%                                                                       
+set year=%date:~10,20%                                                                       
 @REM echo %num%                                                                                                        
 echo.                                                                                                            
 echo creating "SIH %make% %num%" account....                                                                     
