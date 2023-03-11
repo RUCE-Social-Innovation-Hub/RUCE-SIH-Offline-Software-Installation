@@ -11,14 +11,4 @@ Please follow these instructions to install and setup RUCE SIH computers.
 ### <ins>Differences between Flashdrives</ins>
 In this section, I will keep track of the differences between the Flashdrives.
 
-1. This flashdrive is to be used for setting up computers which are using Windows lean version of windows 10. The specific iso used to install this version of windows is  Win_10_Pro_Build_18363.1909.476.iso. 
-
-2. This flasdrive is different in the following ways:
-    1. It copies the SIH Devices Full Offline Setup\Win10\traffic.dll file to  to the path C:\Users\RUCE Admin\AppData\Roaming\Zoom\bin\ folder. 
-    2. It copies the zoom folder in SIH Devices Full Offline Setup\Win10\applications\Zoom which is copied to the SIH ACER 01's path C:\Users\SIH ACER 01\AppData\Roaming\Zoom
-    3. It makes a zoom shotcut on the Desktop from C:\Users\SIH ACER 01\AppData\Roaming\Zoom\bin\zoom.exe 
-    4. It manually installs the drivers by running "SIH Devices Full Offline\Win10\applications\radeon-software-adrenalin-2020-21.5.2-win10-64bit-legacyasics-june21-legacy.exe"
-
-
-
-
+1. This flashdrive is to be used for setting up computers which are using Windows LTSC version of windows 10. 
