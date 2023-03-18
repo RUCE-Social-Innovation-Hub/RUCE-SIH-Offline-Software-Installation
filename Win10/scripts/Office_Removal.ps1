@@ -1,0 +1,1 @@
+Get-TroubleshootingPack -Path "\\rhino.ru.ac.za\SW01\Software\Public\applications\Office 2016 Pro+ Home Use\o15-ctrremove" | Invoke-TroubleshootingPack -AnswerFile "\\rhino.ru.ac.za\SW01\Software\Public\applications\Office 2016 Pro+ Home Use\OfficeAnswers.xml" 
