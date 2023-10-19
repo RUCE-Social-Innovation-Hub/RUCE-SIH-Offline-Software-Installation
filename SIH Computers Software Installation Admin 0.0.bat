@@ -99,6 +99,13 @@ echo                                                                            
 echo exit                                                                                                                                                                                                                                                                                                                                                                                        >> "%~dp0Admin Install Microsoft Office step 2.0.bat"                                  
 
 
+rem <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+rem <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< %Admin Install Office 365 step 2.1.bat>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+rem <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+echo echo Installing Office 365 Apps...                                                                                                                                                                                                                                                                                                                                                          >> "%~dp0Admin Install Microsoft Office 365 offline step 2.1.bat"                                                                                                                                                                 
+echo "%~dp0Win10\applications\Office 365 Apps\setup.exe" /configure "%~dp0Win10\applications\Office 365 Apps\Office365_Apps_Configuration.xml"                                                                                                                                                                                                                                                   >> "%~dp0Admin Install Microsoft Office 365 offline step 2.1.bat"                                                                                                                                                                           
+
 
 
 rem <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
